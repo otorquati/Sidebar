@@ -41,46 +41,46 @@
     </nav>
   </aside>
   <!-- Criando Menu Mobile -->
-  <button class="button-mobile">
+  <button class="button-mobile" onclick="toggleMenu()">
       <i class="material-symbols-outlined">menu</i>
       <span>Menu</span>
   </button>
-  <nav class="menu-mobile">
-    <button>
+  <nav class="menu-mobile" id="menu-mobile">
+    <button class="button-close" onclick="toggleMenu()">
       <span>
         <i class="material-symbols-outlined">close</i>
-        <span>Fechar</span>
+        <span class="mobile-text"></span>
       </span>
     </button>
     <button>
       <span>
         <i class="material-symbols-outlined">home</i>
-        <span>Home</span>
+        <span class="mobile-text">Home</span>
       </span>
     </button>
     <button>
       <span>
         <i class="material-symbols-outlined">tag</i>
-        <span>Explore</span>
+        <span class="mobile-text">Explore</span>
       </span>
     </button>
     <button>
       <span>
         <i class="material-symbols-outlined">email</i>
-        <span>Mensagens</span>
+        <span class="mobile-text">Mensagens</span>
       </span>
     </button>
     <button>
       <span>
         <i class="material-symbols-outlined">person</i>
-        <span>Perfil</span>
+        <span class="mobile-text">Perfil</span>
       </span>
     </button>
   </nav>
-
   <main class="main">
     <h1>Bem vindos a Torquality</h1>
     <span>TorQuality Consulting</span>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
