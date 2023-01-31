@@ -1,12 +1,17 @@
 *{
   box-sizing: border-box;
 }
+:root{
+  --cor01: #1D3F8F; /* Cor do Fundo */
+  --cor02: #FFF; /* Cor do texto */ 
+  --cor03: #121212 /* Cor de transições */
+}
 
 body{
   margin: 0px;
   font-family: san-serif;
-  background-color: #121212;
-  color: #FFF;
+  background-color: var(--cor01);
+  color: var(--cor02);
 }
 
 .border{
@@ -130,7 +135,7 @@ margin-left: 8px;
   align-items: center;
   margin: 16px;
   background: transparent;
-  color: #fff;
+  color: var(--cor02);
   border: 0; 
 }
 
